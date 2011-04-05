@@ -1,0 +1,10 @@
+Variables - number, text
+Collections
+Functions
+if
+else if
+switch
+while
+for
+Expressions - = < >
+Math - + - * /

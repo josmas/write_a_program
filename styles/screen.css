@@ -1,0 +1,23 @@
+/* screen.scss */
+#wrap {
+  width: 100%; }
+
+#shapeContainer, #programContainer {
+  width: 45%;
+  height: auto;
+  float: left;
+  border: 1px solid #000; }
+
+#programContainer {
+  float: right; }
+
+#variableShape, #forShape, #functionShape {
+  width: 640px;
+  height: 480px;
+  background-image: url("../images/var.png"); }
+
+#forShape {
+  background-image: url("../images/for_loop.png"); }
+
+#functionShape {
+  background-image: url("../images/function.png"); }
