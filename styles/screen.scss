@@ -24,6 +24,21 @@ h2 {
 	box-shadow: 0 0 2px 2px #DDD;
 	-moz-box-shadow: 0 0 2px 2px #DDD;
 	-webkit-box-shadow: 0 0 2px 2px #DDD;
+	
+	p {
+		font-family: "Monaco","Courier New",monospace, sans-serif;
+		font-size: 9pt;
+		color: #FFF;
+		padding: 0.8em 0 0 1em;
+	}
+	
+	.code {
+		p {
+			color: #000;
+			padding: 45px 0 0 0;
+			width: 100%;
+		}
+	}
 }
 
 #programContainer {
@@ -32,37 +47,159 @@ h2 {
 }
 
 #variableShape {
-	width: 100%;
-	min-height: 30em;
-	background: url('../images/var_bg.png') transparent no-repeat 0 0;
+	width: 27.75em;
+	height: auto;
+	min-height: 6.25em;
+	margin: 2em 0 0 0.625em;
+	clear:both;
+	.start {
+		background: url('../images/var.png') transparent no-repeat 0 0;
+		width: 80px;
+		height: 40px;
+		float:left;
+	}
+	.hor {
+		@extend .start;
+		background-position: -40px 0;
+		width: 20px;
+	}
+	.end {
+		@extend .start;
+		background-position: -40px 0;
+	}
 }
 
 #forShape {
 	@extend #variableShape;
-	background: url('../images/for_loop_bg.png') transparent no-repeat 0 0;
+	.start {
+		background: url('../images/for_loop.png') transparent no-repeat 0 0;
+	}
+	.hor {
+		@extend .start;
+		background-position: -40px 0;
+		width: 20px;
+	}
+	.end {
+		@extend .start;
+		background-position: -40px 0;
+		clear:right;
+	}
+	.bottom {
+		@extend .start;
+		clear:both;
+		background-position: 0px -40px;
+	}
+	.vert {
+		@extend .start;
+		clear:both;
+		height:1px;
+		width: 30px;
+		background-position: 0px -42px;
+	}
 }
 
 #functionShape {
 	@extend #variableShape;
-	background: url('../images/function_bg.png') transparent no-repeat 0 0;
+	.start {
+		background: url('../images/function.png') transparent no-repeat 0 0;
+	}
+	.hor {
+		@extend .start;
+		background-position: -40px 0;
+		width: 20px;
+	}
+	.end {
+		@extend .start;
+		background-position: -40px 0;
+		clear:right;
+	}
+	.bottom {
+		@extend .start;
+		clear:both;
+		background-position: 0px -40px;
+	}
+	.vert {
+		@extend .start;
+		clear:both;
+		height:1px;
+		width: 30px;
+		background-position: 0px -41px;
+	}
 }
 
 #collectionShape {
 	@extend #variableShape;
-	background: url('../images/collection_bg.png') transparent no-repeat 0 0;
+	.start {
+		background: url('../images/collection.png') transparent no-repeat 0 0;
+	}
+	.hor {
+		@extend .start;
+		background-position: -40px 0;
+		width: 20px;
+	}
+	.end {
+		@extend .start;
+		background-position: -40px 0;
+		clear:right;
+	}
+	.bottom {
+		@extend .start;
+		clear:both;
+		background-position: 0px -40px;
+	}
+	.vert {
+		@extend .start;
+		clear:both;
+		height:1px;
+		width: 30px;
+		background-position: 0px -40px;
+	}
 }
 
 #elseifShape {
 	@extend #variableShape;
-	background: url('../images/elseif_bg.png') transparent no-repeat 0 0;
+	.start {
+		background: url('../images/elseif.png') transparent no-repeat 0 0;
+	}
+	.hor {
+		@extend .start;
+		background-position: -40px 0;
+		width: 20px;
+	}
+	.end {
+		@extend .start;
+		background-position: -40px 0;
+	}
 }
 
 #expressionShape {
 	@extend #variableShape;
-	background: url('../images/expression_bg.png') transparent no-repeat 0 0;
+	.start {
+		background: url('../images/expression.png') transparent no-repeat 0 0;
+	}
+	.hor {
+		@extend .start;
+		background-position: -40px 0;
+		width: 20px;
+	}
+	.end {
+		@extend .start;
+		background-position: -40px 0;
+	}
 }
 
 #ifShape {
 	@extend #variableShape;
-	background: url('../images/if_bg.png') transparent no-repeat 0 0;
+	.start {
+		background: url('../images/if.png') transparent no-repeat 0 0;
+	}
+	.hor {
+		@extend .start;
+		background-position: -40px 0;
+		width: 20px;
+	}
+	.end {
+		@extend .start;
+		background-position: -40px 0;
+	}
 }

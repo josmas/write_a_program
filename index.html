@@ -1,19 +1,93 @@
 <html>
 	<head>
-		<script src="scripts/jquery/jquery-1.5.2.js"></script>
 		<link rel="stylesheet" href="styles/screen.css" type="text/css" media="screen" title="no title" charset="utf-8">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.11/jquery-ui.min.js"></script>
+		<script src="scripts/writeAProgram.js"></script>
+		<script type="text/javascript">
+      $(document).ready(function() {
+        $(document).writeAProgram();
+      });
+    </script>
 	</head>
   <body>
 		<div id="wrap">
 	    <div id="shapeContainer">
 				<h2>Shapes</h2>
-				<div id="variableShape"></div>
-				<div id="forShape"></div>
-				<div id="functionShape"></div>
-				<div id="collectionShape"></div>
-				<div id="elseifShape"></div>
-				<div id="expressionShape"></div>
-				<div id="ifShape"></div>
+				<div id="variableShape">
+					<div class="start">
+						<p>var</p>
+					</div>
+					<div class="hor"></div>
+					<div class="end"></div>
+				</div>
+				<div id="forShape">
+					<div class="start">
+						<p>for</p>
+					</div>
+					<div class="hor"></div>
+					<div class="end"></div>
+					<div class="vert"></div>
+					<div class="vert"></div>
+					<div class="vert"></div>
+					<div class="vert"></div>
+					<div class="vert"></div>
+					<div class="code">
+						
+					</div>
+					<div class="bottom"></div>
+				</div>
+				<div id="functionShape">
+					<div class="start">
+						<p>function</p>
+					</div>
+					<div class="hor"></div>
+					<div class="end"></div>
+					<div class="vert"></div>
+					<div class="vert"></div>
+					<div class="vert"></div>
+					<div class="vert"></div>
+					<div class="vert"></div>
+					<div class="code">
+						
+					</div>
+					<div class="bottom"></div>
+				</div>
+				<div id="collectionShape">
+					<div class="start">
+						<p>collection</p>
+					</div>
+					<div class="hor"></div>
+					<div class="end"></div>
+					<div class="vert"></div>
+					<div class="vert"></div>
+					<div class="vert"></div>
+					<div class="vert"></div>
+					<div class="vert"></div>
+					<div class="code">
+						
+					</div>
+					<div class="bottom"></div>
+				</div>
+				<div id="elseifShape">
+					<div class="start">
+						<p>else if</p>
+					</div>
+					<div class="hor"></div>
+					<div class="end"></div>
+				</div>
+				<div id="expressionShape">
+					<div class="start"></div>
+					<div class="hor"></div>
+					<div class="end"></div>
+				</div>
+				<div id="ifShape">
+					<div class="start">
+						<p>if</p>
+					</div>
+					<div class="hor"></div>
+					<div class="end"></div>
+				</div>
 			</div>
 	    <div id="programContainer">
 				<h2>Program</h2>

@@ -59,29 +59,107 @@ h2 {
   box-shadow: 0 0 2px 2px #DDD;
   -moz-box-shadow: 0 0 2px 2px #DDD;
   -webkit-box-shadow: 0 0 2px 2px #DDD; }
+  #shapeContainer p, #programContainer p {
+    font-family: "Monaco","Courier New",monospace, sans-serif;
+    font-size: 9pt;
+    color: #FFF;
+    padding: 0.8em 0 0 1em; }
+  #shapeContainer .code p, #programContainer .code p {
+    color: #000;
+    padding: 45px 0 0 0;
+    width: 100%; }
 
 #programContainer {
   margin: 0; }
 
 #variableShape, #forShape, #functionShape, #collectionShape, #elseifShape, #expressionShape, #ifShape {
-  width: 100%;
-  min-height: 30em;
-  background: url("../images/var_bg.png") transparent no-repeat 0 0; }
+  width: 27.75em;
+  height: auto;
+  min-height: 6.25em;
+  margin: 2em 0 0 0.625em;
+  clear: both; }
+  #variableShape .start, #forShape .start, #functionShape .start, #collectionShape .start, #elseifShape .start, #expressionShape .start, #ifShape .start, #variableShape .hor, #forShape #variableShape .hor, #variableShape #forShape .hor, #functionShape #variableShape .hor, #variableShape #functionShape .hor, #collectionShape #variableShape .hor, #variableShape #collectionShape .hor, #elseifShape #variableShape .hor, #variableShape #elseifShape .hor, #expressionShape #variableShape .hor, #variableShape #expressionShape .hor, #ifShape #variableShape .hor, #variableShape #ifShape .hor, #variableShape #forShape .hor, #forShape #variableShape .hor, #forShape .hor, #functionShape #forShape .hor, #forShape #functionShape .hor, #collectionShape #forShape .hor, #forShape #collectionShape .hor, #elseifShape #forShape .hor, #forShape #elseifShape .hor, #expressionShape #forShape .hor, #forShape #expressionShape .hor, #ifShape #forShape .hor, #forShape #ifShape .hor, #variableShape #functionShape .hor, #functionShape #variableShape .hor, #forShape #functionShape .hor, #functionShape #forShape .hor, #functionShape .hor, #collectionShape #functionShape .hor, #functionShape #collectionShape .hor, #elseifShape #functionShape .hor, #functionShape #elseifShape .hor, #expressionShape #functionShape .hor, #functionShape #expressionShape .hor, #ifShape #functionShape .hor, #functionShape #ifShape .hor, #variableShape #collectionShape .hor, #collectionShape #variableShape .hor, #forShape #collectionShape .hor, #collectionShape #forShape .hor, #functionShape #collectionShape .hor, #collectionShape #functionShape .hor, #collectionShape .hor, #elseifShape #collectionShape .hor, #collectionShape #elseifShape .hor, #expressionShape #collectionShape .hor, #collectionShape #expressionShape .hor, #ifShape #collectionShape .hor, #collectionShape #ifShape .hor, #variableShape #elseifShape .hor, #elseifShape #variableShape .hor, #forShape #elseifShape .hor, #elseifShape #forShape .hor, #functionShape #elseifShape .hor, #elseifShape #functionShape .hor, #collectionShape #elseifShape .hor, #elseifShape #collectionShape .hor, #elseifShape .hor, #expressionShape #elseifShape .hor, #elseifShape #expressionShape .hor, #ifShape #elseifShape .hor, #elseifShape #ifShape .hor, #variableShape #expressionShape .hor, #expressionShape #variableShape .hor, #forShape #expressionShape .hor, #expressionShape #forShape .hor, #functionShape #expressionShape .hor, #expressionShape #functionShape .hor, #collectionShape #expressionShape .hor, #expressionShape #collectionShape .hor, #elseifShape #expressionShape .hor, #expressionShape #elseifShape .hor, #expressionShape .hor, #ifShape #expressionShape .hor, #expressionShape #ifShape .hor, #variableShape #ifShape .hor, #ifShape #variableShape .hor, #forShape #ifShape .hor, #ifShape #forShape .hor, #functionShape #ifShape .hor, #ifShape #functionShape .hor, #collectionShape #ifShape .hor, #ifShape #collectionShape .hor, #elseifShape #ifShape .hor, #ifShape #elseifShape .hor, #expressionShape #ifShape .hor, #ifShape #expressionShape .hor, #ifShape .hor, #variableShape .end, #forShape #variableShape .end, #variableShape #forShape .end, #functionShape #variableShape .end, #variableShape #functionShape .end, #collectionShape #variableShape .end, #variableShape #collectionShape .end, #elseifShape #variableShape .end, #variableShape #elseifShape .end, #expressionShape #variableShape .end, #variableShape #expressionShape .end, #ifShape #variableShape .end, #variableShape #ifShape .end, #variableShape #forShape .end, #forShape #variableShape .end, #forShape .end, #functionShape #forShape .end, #forShape #functionShape .end, #collectionShape #forShape .end, #forShape #collectionShape .end, #elseifShape #forShape .end, #forShape #elseifShape .end, #expressionShape #forShape .end, #forShape #expressionShape .end, #ifShape #forShape .end, #forShape #ifShape .end, #variableShape #functionShape .end, #functionShape #variableShape .end, #forShape #functionShape .end, #functionShape #forShape .end, #functionShape .end, #collectionShape #functionShape .end, #functionShape #collectionShape .end, #elseifShape #functionShape .end, #functionShape #elseifShape .end, #expressionShape #functionShape .end, #functionShape #expressionShape .end, #ifShape #functionShape .end, #functionShape #ifShape .end, #variableShape #collectionShape .end, #collectionShape #variableShape .end, #forShape #collectionShape .end, #collectionShape #forShape .end, #functionShape #collectionShape .end, #collectionShape #functionShape .end, #collectionShape .end, #elseifShape #collectionShape .end, #collectionShape #elseifShape .end, #expressionShape #collectionShape .end, #collectionShape #expressionShape .end, #ifShape #collectionShape .end, #collectionShape #ifShape .end, #variableShape #elseifShape .end, #elseifShape #variableShape .end, #forShape #elseifShape .end, #elseifShape #forShape .end, #functionShape #elseifShape .end, #elseifShape #functionShape .end, #collectionShape #elseifShape .end, #elseifShape #collectionShape .end, #elseifShape .end, #expressionShape #elseifShape .end, #elseifShape #expressionShape .end, #ifShape #elseifShape .end, #elseifShape #ifShape .end, #variableShape #expressionShape .end, #expressionShape #variableShape .end, #forShape #expressionShape .end, #expressionShape #forShape .end, #functionShape #expressionShape .end, #expressionShape #functionShape .end, #collectionShape #expressionShape .end, #expressionShape #collectionShape .end, #elseifShape #expressionShape .end, #expressionShape #elseifShape .end, #expressionShape .end, #ifShape #expressionShape .end, #expressionShape #ifShape .end, #variableShape #ifShape .end, #ifShape #variableShape .end, #forShape #ifShape .end, #ifShape #forShape .end, #functionShape #ifShape .end, #ifShape #functionShape .end, #collectionShape #ifShape .end, #ifShape #collectionShape .end, #elseifShape #ifShape .end, #ifShape #elseifShape .end, #expressionShape #ifShape .end, #ifShape #expressionShape .end, #ifShape .end, #variableShape #forShape .bottom, #forShape #variableShape .bottom, #forShape .bottom, #functionShape #forShape .bottom, #forShape #functionShape .bottom, #collectionShape #forShape .bottom, #forShape #collectionShape .bottom, #elseifShape #forShape .bottom, #forShape #elseifShape .bottom, #expressionShape #forShape .bottom, #forShape #expressionShape .bottom, #ifShape #forShape .bottom, #forShape #ifShape .bottom, #variableShape #forShape .vert, #forShape #variableShape .vert, #forShape .vert, #functionShape #forShape .vert, #forShape #functionShape .vert, #collectionShape #forShape .vert, #forShape #collectionShape .vert, #elseifShape #forShape .vert, #forShape #elseifShape .vert, #expressionShape #forShape .vert, #forShape #expressionShape .vert, #ifShape #forShape .vert, #forShape #ifShape .vert, #variableShape #functionShape .bottom, #functionShape #variableShape .bottom, #forShape #functionShape .bottom, #functionShape #forShape .bottom, #functionShape .bottom, #collectionShape #functionShape .bottom, #functionShape #collectionShape .bottom, #elseifShape #functionShape .bottom, #functionShape #elseifShape .bottom, #expressionShape #functionShape .bottom, #functionShape #expressionShape .bottom, #ifShape #functionShape .bottom, #functionShape #ifShape .bottom, #variableShape #functionShape .vert, #functionShape #variableShape .vert, #forShape #functionShape .vert, #functionShape #forShape .vert, #functionShape .vert, #collectionShape #functionShape .vert, #functionShape #collectionShape .vert, #elseifShape #functionShape .vert, #functionShape #elseifShape .vert, #expressionShape #functionShape .vert, #functionShape #expressionShape .vert, #ifShape #functionShape .vert, #functionShape #ifShape .vert, #variableShape #collectionShape .bottom, #collectionShape #variableShape .bottom, #forShape #collectionShape .bottom, #collectionShape #forShape .bottom, #functionShape #collectionShape .bottom, #collectionShape #functionShape .bottom, #collectionShape .bottom, #elseifShape #collectionShape .bottom, #collectionShape #elseifShape .bottom, #expressionShape #collectionShape .bottom, #collectionShape #expressionShape .bottom, #ifShape #collectionShape .bottom, #collectionShape #ifShape .bottom, #variableShape #collectionShape .vert, #collectionShape #variableShape .vert, #forShape #collectionShape .vert, #collectionShape #forShape .vert, #functionShape #collectionShape .vert, #collectionShape #functionShape .vert, #collectionShape .vert, #elseifShape #collectionShape .vert, #collectionShape #elseifShape .vert, #expressionShape #collectionShape .vert, #collectionShape #expressionShape .vert, #ifShape #collectionShape .vert, #collectionShape #ifShape .vert {
+    background: url("../images/var.png") transparent no-repeat 0 0;
+    width: 80px;
+    height: 40px;
+    float: left; }
+  #variableShape .hor, #forShape .hor, #functionShape .hor, #collectionShape .hor, #elseifShape .hor, #expressionShape .hor, #ifShape .hor {
+    background-position: -40px 0;
+    width: 20px; }
+  #variableShape .end, #forShape .end, #functionShape .end, #collectionShape .end, #elseifShape .end, #expressionShape .end, #ifShape .end {
+    background-position: -40px 0; }
 
-#forShape {
-  background: url("../images/for_loop_bg.png") transparent no-repeat 0 0; }
+#forShape .start, #forShape #variableShape .hor, #variableShape #forShape .hor, #forShape .hor, #forShape #functionShape .hor, #functionShape #forShape .hor, #forShape #collectionShape .hor, #collectionShape #forShape .hor, #forShape #elseifShape .hor, #elseifShape #forShape .hor, #forShape #expressionShape .hor, #expressionShape #forShape .hor, #forShape #ifShape .hor, #ifShape #forShape .hor, #forShape #variableShape .end, #variableShape #forShape .end, #forShape .end, #forShape #functionShape .end, #functionShape #forShape .end, #forShape #collectionShape .end, #collectionShape #forShape .end, #forShape #elseifShape .end, #elseifShape #forShape .end, #forShape #expressionShape .end, #expressionShape #forShape .end, #forShape #ifShape .end, #ifShape #forShape .end, #forShape .bottom, #forShape .vert, #forShape #functionShape .bottom, #functionShape #forShape .bottom, #forShape #functionShape .vert, #functionShape #forShape .vert, #forShape #collectionShape .bottom, #collectionShape #forShape .bottom, #forShape #collectionShape .vert, #collectionShape #forShape .vert {
+  background: url("../images/for_loop.png") transparent no-repeat 0 0; }
+#forShape .hor {
+  background-position: -40px 0;
+  width: 20px; }
+#forShape .end {
+  background-position: -40px 0;
+  clear: right; }
+#forShape .bottom {
+  clear: both;
+  background-position: 0px -40px; }
+#forShape .vert {
+  clear: both;
+  height: 1px;
+  width: 30px;
+  background-position: 0px -42px; }
 
-#functionShape {
-  background: url("../images/function_bg.png") transparent no-repeat 0 0; }
+#functionShape .start, #functionShape #variableShape .hor, #variableShape #functionShape .hor, #functionShape #forShape .hor, #forShape #functionShape .hor, #functionShape .hor, #functionShape #collectionShape .hor, #collectionShape #functionShape .hor, #functionShape #elseifShape .hor, #elseifShape #functionShape .hor, #functionShape #expressionShape .hor, #expressionShape #functionShape .hor, #functionShape #ifShape .hor, #ifShape #functionShape .hor, #functionShape #variableShape .end, #variableShape #functionShape .end, #functionShape #forShape .end, #forShape #functionShape .end, #functionShape .end, #functionShape #collectionShape .end, #collectionShape #functionShape .end, #functionShape #elseifShape .end, #elseifShape #functionShape .end, #functionShape #expressionShape .end, #expressionShape #functionShape .end, #functionShape #ifShape .end, #ifShape #functionShape .end, #functionShape #forShape .bottom, #forShape #functionShape .bottom, #functionShape #forShape .vert, #forShape #functionShape .vert, #functionShape .bottom, #functionShape .vert, #functionShape #collectionShape .bottom, #collectionShape #functionShape .bottom, #functionShape #collectionShape .vert, #collectionShape #functionShape .vert {
+  background: url("../images/function.png") transparent no-repeat 0 0; }
+#functionShape .hor {
+  background-position: -40px 0;
+  width: 20px; }
+#functionShape .end {
+  background-position: -40px 0;
+  clear: right; }
+#functionShape .bottom {
+  clear: both;
+  background-position: 0px -40px; }
+#functionShape .vert {
+  clear: both;
+  height: 1px;
+  width: 30px;
+  background-position: 0px -41px; }
 
-#collectionShape {
-  background: url("../images/collection_bg.png") transparent no-repeat 0 0; }
+#collectionShape .start, #collectionShape #variableShape .hor, #variableShape #collectionShape .hor, #collectionShape #forShape .hor, #forShape #collectionShape .hor, #collectionShape #functionShape .hor, #functionShape #collectionShape .hor, #collectionShape .hor, #collectionShape #elseifShape .hor, #elseifShape #collectionShape .hor, #collectionShape #expressionShape .hor, #expressionShape #collectionShape .hor, #collectionShape #ifShape .hor, #ifShape #collectionShape .hor, #collectionShape #variableShape .end, #variableShape #collectionShape .end, #collectionShape #forShape .end, #forShape #collectionShape .end, #collectionShape #functionShape .end, #functionShape #collectionShape .end, #collectionShape .end, #collectionShape #elseifShape .end, #elseifShape #collectionShape .end, #collectionShape #expressionShape .end, #expressionShape #collectionShape .end, #collectionShape #ifShape .end, #ifShape #collectionShape .end, #collectionShape #forShape .bottom, #forShape #collectionShape .bottom, #collectionShape #forShape .vert, #forShape #collectionShape .vert, #collectionShape #functionShape .bottom, #functionShape #collectionShape .bottom, #collectionShape #functionShape .vert, #functionShape #collectionShape .vert, #collectionShape .bottom, #collectionShape .vert {
+  background: url("../images/collection.png") transparent no-repeat 0 0; }
+#collectionShape .hor {
+  background-position: -40px 0;
+  width: 20px; }
+#collectionShape .end {
+  background-position: -40px 0;
+  clear: right; }
+#collectionShape .bottom {
+  clear: both;
+  background-position: 0px -40px; }
+#collectionShape .vert {
+  clear: both;
+  height: 1px;
+  width: 30px;
+  background-position: 0px -40px; }
 
-#elseifShape {
-  background: url("../images/elseif_bg.png") transparent no-repeat 0 0; }
+#elseifShape .start, #elseifShape #variableShape .hor, #variableShape #elseifShape .hor, #elseifShape #forShape .hor, #forShape #elseifShape .hor, #elseifShape #functionShape .hor, #functionShape #elseifShape .hor, #elseifShape #collectionShape .hor, #collectionShape #elseifShape .hor, #elseifShape .hor, #elseifShape #expressionShape .hor, #expressionShape #elseifShape .hor, #elseifShape #ifShape .hor, #ifShape #elseifShape .hor, #elseifShape #variableShape .end, #variableShape #elseifShape .end, #elseifShape #forShape .end, #forShape #elseifShape .end, #elseifShape #functionShape .end, #functionShape #elseifShape .end, #elseifShape #collectionShape .end, #collectionShape #elseifShape .end, #elseifShape .end, #elseifShape #expressionShape .end, #expressionShape #elseifShape .end, #elseifShape #ifShape .end, #ifShape #elseifShape .end, #elseifShape #forShape .bottom, #forShape #elseifShape .bottom, #elseifShape #forShape .vert, #forShape #elseifShape .vert, #elseifShape #functionShape .bottom, #functionShape #elseifShape .bottom, #elseifShape #functionShape .vert, #functionShape #elseifShape .vert, #elseifShape #collectionShape .bottom, #collectionShape #elseifShape .bottom, #elseifShape #collectionShape .vert, #collectionShape #elseifShape .vert {
+  background: url("../images/elseif.png") transparent no-repeat 0 0; }
+#elseifShape .hor {
+  background-position: -40px 0;
+  width: 20px; }
+#elseifShape .end {
+  background-position: -40px 0; }
 
-#expressionShape {
-  background: url("../images/expression_bg.png") transparent no-repeat 0 0; }
+#expressionShape .start, #expressionShape #variableShape .hor, #variableShape #expressionShape .hor, #expressionShape #forShape .hor, #forShape #expressionShape .hor, #expressionShape #functionShape .hor, #functionShape #expressionShape .hor, #expressionShape #collectionShape .hor, #collectionShape #expressionShape .hor, #expressionShape #elseifShape .hor, #elseifShape #expressionShape .hor, #expressionShape .hor, #expressionShape #ifShape .hor, #ifShape #expressionShape .hor, #expressionShape #variableShape .end, #variableShape #expressionShape .end, #expressionShape #forShape .end, #forShape #expressionShape .end, #expressionShape #functionShape .end, #functionShape #expressionShape .end, #expressionShape #collectionShape .end, #collectionShape #expressionShape .end, #expressionShape #elseifShape .end, #elseifShape #expressionShape .end, #expressionShape .end, #expressionShape #ifShape .end, #ifShape #expressionShape .end, #expressionShape #forShape .bottom, #forShape #expressionShape .bottom, #expressionShape #forShape .vert, #forShape #expressionShape .vert, #expressionShape #functionShape .bottom, #functionShape #expressionShape .bottom, #expressionShape #functionShape .vert, #functionShape #expressionShape .vert, #expressionShape #collectionShape .bottom, #collectionShape #expressionShape .bottom, #expressionShape #collectionShape .vert, #collectionShape #expressionShape .vert {
+  background: url("../images/expression.png") transparent no-repeat 0 0; }
+#expressionShape .hor {
+  background-position: -40px 0;
+  width: 20px; }
+#expressionShape .end {
+  background-position: -40px 0; }
 
-#ifShape {
-  background: url("../images/if_bg.png") transparent no-repeat 0 0; }
+#ifShape .start, #ifShape #variableShape .hor, #variableShape #ifShape .hor, #ifShape #forShape .hor, #forShape #ifShape .hor, #ifShape #functionShape .hor, #functionShape #ifShape .hor, #ifShape #collectionShape .hor, #collectionShape #ifShape .hor, #ifShape #elseifShape .hor, #elseifShape #ifShape .hor, #ifShape #expressionShape .hor, #expressionShape #ifShape .hor, #ifShape .hor, #ifShape #variableShape .end, #variableShape #ifShape .end, #ifShape #forShape .end, #forShape #ifShape .end, #ifShape #functionShape .end, #functionShape #ifShape .end, #ifShape #collectionShape .end, #collectionShape #ifShape .end, #ifShape #elseifShape .end, #elseifShape #ifShape .end, #ifShape #expressionShape .end, #expressionShape #ifShape .end, #ifShape .end, #ifShape #forShape .bottom, #forShape #ifShape .bottom, #ifShape #forShape .vert, #forShape #ifShape .vert, #ifShape #functionShape .bottom, #functionShape #ifShape .bottom, #ifShape #functionShape .vert, #functionShape #ifShape .vert, #ifShape #collectionShape .bottom, #collectionShape #ifShape .bottom, #ifShape #collectionShape .vert, #collectionShape #ifShape .vert {
+  background: url("../images/if.png") transparent no-repeat 0 0; }
+#ifShape .hor {
+  background-position: -40px 0;
+  width: 20px; }
+#ifShape .end {
+  background-position: -40px 0; }
