@@ -1,23 +1,87 @@
-/* screen.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+h2 {
+  width: 95%;
+  margin: 0.625em 0 0 0.625em;
+  border-bottom: 1px solid #CCC; }
+
 #wrap {
-  width: 100%; }
+  width: 60em;
+  margin: 1em auto 0 auto; }
 
 #shapeContainer, #programContainer {
-  width: 45%;
-  height: auto;
+  width: 29.375em;
+  height: 50em;
   float: left;
-  border: 1px solid #000; }
+  border: 1px solid #777;
+  margin: 0 1em 0 0;
+  overflow: auto;
+  box-shadow: 0 0 2px 2px #DDD;
+  -moz-box-shadow: 0 0 2px 2px #DDD;
+  -webkit-box-shadow: 0 0 2px 2px #DDD; }
 
 #programContainer {
-  float: right; }
+  margin: 0; }
 
-#variableShape, #forShape, #functionShape {
-  width: 640px;
-  height: 480px;
-  background-image: url("../images/var.png"); }
+#variableShape, #forShape, #functionShape, #collectionShape, #elseifShape, #expressionShape, #ifShape {
+  width: 100%;
+  min-height: 30em;
+  background: url("../images/var_bg.png") transparent no-repeat 0 0; }
 
 #forShape {
-  background-image: url("../images/for_loop.png"); }
+  background: url("../images/for_loop_bg.png") transparent no-repeat 0 0; }
 
 #functionShape {
-  background-image: url("../images/function.png"); }
+  background: url("../images/function_bg.png") transparent no-repeat 0 0; }
+
+#collectionShape {
+  background: url("../images/collection_bg.png") transparent no-repeat 0 0; }
+
+#elseifShape {
+  background: url("../images/elseif_bg.png") transparent no-repeat 0 0; }
+
+#expressionShape {
+  background: url("../images/expression_bg.png") transparent no-repeat 0 0; }
+
+#ifShape {
+  background: url("../images/if_bg.png") transparent no-repeat 0 0; }

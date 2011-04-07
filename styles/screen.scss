@@ -1,33 +1,68 @@
-/* screen.scss */
+// screen.scss
+
+@import "reset.scss";
+
+h2 {
+	width: 95%;
+	margin: 0.625em 0 0 0.625em;
+	border-bottom: 1px solid #CCC;
+}
 
 #wrap {
-	width: 100%;
+	width: 60em;
+	margin: 1em auto 0 auto;
 }
 
 #shapeContainer {
-	width: 45%;
-	height: auto;
+	width: 29.375em;
+	height: 50em;
 	float: left;
-	border: 1px solid #000;
+	border: 1px solid #777;
+	margin: 0 1em 0 0;
+	overflow:auto;
+	//CSS3 box-shadow
+	box-shadow: 0 0 2px 2px #DDD;
+	-moz-box-shadow: 0 0 2px 2px #DDD;
+	-webkit-box-shadow: 0 0 2px 2px #DDD;
 }
 
 #programContainer {
 	@extend #shapeContainer;
-	float: right;
+	margin:  0;
 }
 
 #variableShape {
-	width: 640px;
-	height: 480px;
-	background-image: url('../images/var.png');
+	width: 100%;
+	min-height: 30em;
+	background: url('../images/var_bg.png') transparent no-repeat 0 0;
 }
 
 #forShape {
 	@extend #variableShape;
-	background-image: url('../images/for_loop.png');
+	background: url('../images/for_loop_bg.png') transparent no-repeat 0 0;
 }
 
 #functionShape {
 	@extend #variableShape;
-	background-image: url('../images/function.png');
+	background: url('../images/function_bg.png') transparent no-repeat 0 0;
+}
+
+#collectionShape {
+	@extend #variableShape;
+	background: url('../images/collection_bg.png') transparent no-repeat 0 0;
+}
+
+#elseifShape {
+	@extend #variableShape;
+	background: url('../images/elseif_bg.png') transparent no-repeat 0 0;
+}
+
+#expressionShape {
+	@extend #variableShape;
+	background: url('../images/expression_bg.png') transparent no-repeat 0 0;
+}
+
+#ifShape {
+	@extend #variableShape;
+	background: url('../images/if_bg.png') transparent no-repeat 0 0;
 }

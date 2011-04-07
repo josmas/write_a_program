@@ -1,10 +1,8 @@
-Variables - number, text
-Collections
-Functions
-if
-else if
-switch
-while
-for
-Expressions - = < >
-Math - + - * /
+x Variables - number, text
+x Collections
+x Functions
+x if
+x else if
+x for
+x Expressions - = < >
+x Math - + - * /
